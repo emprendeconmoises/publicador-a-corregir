@@ -1,0 +1,29 @@
+<!-- popup.html -->
+<html>
+  <head>
+    <title>Paysup Group Poster</title>
+  </head>
+  <body>
+    <h1>Paysup Group Poster</h1>
+    <form id="post-form">
+        <label for="access-code">Access code:</label>
+        <input type="text" id="access-code" required>
+        <br>
+        <label for="group-id">Group IDs (separated by commas):</label>
+        <input type="text" id="group-id" required>
+        <br>
+        <label for="post-text">Post text:</label>
+        <textarea id="post-text" required></textarea>
+        <br>
+        <label for="post-image">Post image:</label>
+        <input type="file" id="post-image">
+        <br>
+        <label for="post-time">Post time:</label>
+        <input type="datetime-local" id="post-time" required>
+        <br>
+        <button type="submit">Schedule post</button>
+      </form>
+      <div id="message"></div>
+      <div id="links"></div>
+  </body>
+</html>
